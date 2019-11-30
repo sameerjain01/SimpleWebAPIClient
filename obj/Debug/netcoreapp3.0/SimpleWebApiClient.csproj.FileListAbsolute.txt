@@ -1,0 +1,13 @@
+C:\00Projects\dotNetCore\consoleWebAPIClient\bin\Debug\netcoreapp3.0\SimpleWebApiClient.exe
+C:\00Projects\dotNetCore\consoleWebAPIClient\bin\Debug\netcoreapp3.0\SimpleWebApiClient.deps.json
+C:\00Projects\dotNetCore\consoleWebAPIClient\bin\Debug\netcoreapp3.0\SimpleWebApiClient.runtimeconfig.json
+C:\00Projects\dotNetCore\consoleWebAPIClient\bin\Debug\netcoreapp3.0\SimpleWebApiClient.runtimeconfig.dev.json
+C:\00Projects\dotNetCore\consoleWebAPIClient\bin\Debug\netcoreapp3.0\SimpleWebApiClient.dll
+C:\00Projects\dotNetCore\consoleWebAPIClient\bin\Debug\netcoreapp3.0\SimpleWebApiClient.pdb
+C:\00Projects\dotNetCore\consoleWebAPIClient\bin\Debug\netcoreapp3.0\Newtonsoft.Json.dll
+C:\00Projects\dotNetCore\consoleWebAPIClient\bin\Debug\netcoreapp3.0\unirest-netcore20.dll
+C:\00Projects\dotNetCore\consoleWebAPIClient\obj\Debug\netcoreapp3.0\SimpleWebApiClient.AssemblyInfoInputs.cache
+C:\00Projects\dotNetCore\consoleWebAPIClient\obj\Debug\netcoreapp3.0\SimpleWebApiClient.AssemblyInfo.cs
+C:\00Projects\dotNetCore\consoleWebAPIClient\obj\Debug\netcoreapp3.0\SimpleWebApiClient.csproj.CopyComplete
+C:\00Projects\dotNetCore\consoleWebAPIClient\obj\Debug\netcoreapp3.0\SimpleWebApiClient.dll
+C:\00Projects\dotNetCore\consoleWebAPIClient\obj\Debug\netcoreapp3.0\SimpleWebApiClient.pdb

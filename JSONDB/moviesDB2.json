@@ -1,0 +1,28 @@
+{
+  "movies": [
+    {
+      "id": 10,
+      "NameOfMovie": "Good Batman",
+      "YearOfRelease": "1994",
+      "Revenue": 23.5
+    },
+    {
+      "id": 20,
+      "NameOfMovie": "OK Batman",
+      "YearOfRelease": "2000",
+      "Revenue": 15.5
+    },
+    {
+      "id": 30,
+      "NameOfMovie": "Poor Batman",
+      "YearOfRelease": "1984",
+      "Revenue": 3.5
+    },
+    {
+      "id": 31,
+      "NameOfMovie": "Avg Batman",
+      "YearOfRelease": "2005",
+      "Revenue": 6.5
+    }
+  ]
+}
