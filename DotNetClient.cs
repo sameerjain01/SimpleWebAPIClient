@@ -42,6 +42,7 @@ namespace SimpleWebApiClient
           new MediaTypeWithQualityHeaderValue(("application/json")));
 
 
+
       using (var streamTask = _httpClient.GetStreamAsync(URL))
       {
         var serializer = new DataContractJsonSerializer(typeof(List<MoviesModel>));
@@ -49,6 +50,38 @@ namespace SimpleWebApiClient
       }
 
       return retResult;
+    }
+
+    /// <summary>
+    /// Using Extention methods
+    /// </summary>
+    /// <param name="URL"></param>
+    /// <returns></returns>
+    public async Task<List<MoviesModel>> GetMovies(string URL)
+    {
+
+      HttpResponseMessage httpResponse;
+
+
+      List<MoviesModel> retResult = null;
+
+
+      _httpClient.DefaultRequestHeaders.Accept.Clear();
+      _httpClient.DefaultRequestHeaders.Accept.Add(
+          new MediaTypeWithQualityHeaderValue(("application/json")));
+      using (httpResponse = await _httpClient.GetAsync(URL))
+      {
+        if (httpResponse.IsSuccessStatusCode)
+        {
+          retResult = await httpResponse.Content.ReadAsJsonAsync<List<MoviesModel>>();
+          return retResult;
+        }
+
+
+      }
+
+      return null;
+
     }
   }
 }

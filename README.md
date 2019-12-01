@@ -198,7 +198,7 @@ My plan is to use Generic in the RestFul Client so this could be generalized for
 ## Licence
 Under MIT Licence. Please feel free to use and extend.
 
-## References
+## Referemces
 - [Unirest for .Net](https://github.com/Kong/unirest-net)
 
 - [JSON Server](https://github.com/typicode/json-server)
